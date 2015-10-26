@@ -1,0 +1,16 @@
+% layout 'default';
+% title 'Sistema de teste';
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="tab-content panel panel-default">
+                <div class="tab-pane fade active in" id="inicio">
+                    <div class="panel-heading">Resumo Financeiro</div> 
+                        <p>Estou no início</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

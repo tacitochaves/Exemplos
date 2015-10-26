@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <title>Starter Template for Bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- CSS styles -->
+        <link href="../../css/bootstrap.css" rel="stylesheet">
+        <link href="../../css/template.css" rel="stylesheet">
+
+        <!--[if lt IE 9]>
+            <script src="../../js/html5shiv.min.js"></script>
+            <script src="../../js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>        
+        <nav class="nav">
+            <div class="container">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="/">Início</a></li>
+                    <li><a data-toggle="tab" href="/lancamento">Lançamentos</a></li>
+                    <li><a data-toggle="tab" href="/consulta">Consultas</a></li>
+                    <li><a data-toggle="tab" href="/cadastro">Cadastros</a></li>
+                    <li><a data-toggle="tab" href="/administracao">Administração</a></li>
+                    <li class="dropdown pull-right">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Central de Ajuda
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Atendimento Online</a></li>
+                            <li><a href="#">Painel do Cliente</a></li>
+                            <li><a href="#">Informações de Contato</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Ajuda Online</a></li>
+                            <li><a href="#">Central de Vídeos</a></li>
+                            <li><a href="#">Feedback</a></li>
+                        </ul>
+                    </li>
+                </ul>      
+            </div><!--fim do container de abas-->
+        </nav><!--fim da aba-->
+
+        <%= content %>
+       <!-- 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="tab-content panel panel-default">
+                        <div class="tab-pane fade active in" id="inicio">
+                            <div class="panel-heading">Resumo Financeiro</div> 
+                            <p>Estou no início</p>
+                        </div>
+                        <div class="tab-pane fade" id="lancamentos">
+                            <div class="panel-heading">Receitas e Despesas</div>
+                            <p>Estou no lançamento</p>
+                        </div>
+                        <div class="tab-pane fade" id="consultas">
+                            <div class="panel-heading">Consultas</div>
+                            <p>Estou na consulta</p>
+                        </div>
+                        <div class="tab-pane fade" id="cadastros">
+                            <div class="panel-heading">Cadastros</div>
+                            <p>Estou no cadastro</p>
+                        </div>
+                        <div class="tab-pane fade" id="administracao">
+                            <div class="panel-heading">Administração</div>
+                            <p>Estou na administração</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       -->
+        <script src="../../js/jquery.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+    </body>
+</html>

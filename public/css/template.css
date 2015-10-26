@@ -1,0 +1,88 @@
+.header {
+  background-color: #B22D00;
+}
+.nav {
+  background-color: #8C2300;
+}
+#empresa {
+  padding: 10px;
+}
+a {
+  outline: 0;
+}
+#empresa a {
+  font-family: Verdana, Arial;
+  font-size: 23px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+#usuario {
+  padding: 13px;
+}
+#usuario a {
+  font-family: Verdana, Arial;
+  font-size: 13px;
+  color: #FFF;
+}
+#usuario span {
+  font-size: 17px;
+}
+.nav > li > a {
+  padding: 7px 10px;
+  font-family: Verdana, Arial;
+  color: #EFC8BA;
+  font-size: 12px;
+  font-weight: bold;
+}
+.nav > li > a:hover {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: #FFF;
+}
+.nav > li > a:focus {
+  text-decoration: none;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  color: #8C2300;
+  font-weight: bold;
+  font-size: 13px;
+}
+.nav-tabs {
+  border-bottom: 1px solid #8C2300;
+}
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+}
+.panel {
+  border-top: none;
+}
+.panel-heading {
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #DDD;
+  font-family: Verdana, Arial;
+  font-size: 21px;
+}
+.dropdown-menu {
+  font-size: 11px;
+  font-family: Verdana, Arial;
+}
+.dropdown-menu > li > a {
+  font-weight: bold;
+  color: #6E6E6E;
+}
+.dropdown-menu > li > a:hover {
+  background-color: transparent;
+  color: #8C2300;
+  text-decoration: underline;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+  background-color: transparent;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {  
+  border-color: transparent;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:active {  
+  color: #F1CA6A;
+}

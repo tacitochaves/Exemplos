@@ -1,0 +1,17 @@
+% layout 'default';
+% title 'Testando funcionalidades';
+
+%= form_for login => ( method => 'POST' ) => ( name => 'login' ) => ( action => '#' ) => ( class => 'form' ) => begin
+    %= label_for usuario => 'Usuário' 
+    %= tag 'br'
+    %= text_field 'usuario', id => 'usuario', class => 'obrigatorio'
+    %= tag 'br'
+    %= label_for senha => 'Senha'  
+    %= tag 'br'
+    %= password_field 'senha', id => 'senha', class => 'obrigatorio'
+    %= tag 'br'
+    %= tag 'br'
+    %= submit_button 'Enviar', name => 'enviar', id => 'enviar' 
+% end
+
+<%= tag div => (class => 'recebeDados') => begin %><% end %>
